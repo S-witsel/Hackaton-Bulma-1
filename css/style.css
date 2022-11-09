@@ -1,0 +1,32 @@
+.active{
+    background-color: lightgray;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+.card{
+    box-shadow: 5px 10px black;
+}
+
+.hero{
+    background-image: url(../img/Dinosaur\ Hero\ image.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.homebutton{
+    margin: auto auto;
+    width: fit-content;
+}
+
+.herotitle{
+    margin:0 auto;
+}
+
+.aankoop{
+    background-color: white;
+}

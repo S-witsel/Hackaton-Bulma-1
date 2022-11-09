@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jurassic Park Shop Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css"
+  </head>
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <img src="img/jurassic park logo.png" width="28" height="28">
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="index.html">
+                Home
+            </a>
+      
+            <a class="navbar-item" href="selection.html">
+                Our Selection
+            </a>
+
+            <a class="navbar-item" href="tipstricks.html">
+                Tips & Tricks
+            </a>
+
+            <a class="navbar-item active">
+                Contact & Buy
+            </a>
+      
+          </div>
+        </div>
+        <div class="navbar-end">
+
+        </div>
+      </nav>
+      <section class="section">
+        <div class="field">
+            <label class="label">Name</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Name input">
+            </div>
+          </div>
+          
+          <div class="field">
+            <label class="label">Mobile number</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Mobile number input" value="">
+            </div>
+          </div>
+          
+          <div class="field">
+            <label class="label">Email</label>
+            <div class="control">
+              <input class="input" type="email" placeholder="Email input" value="">
+            </div>
+          </div>
+          
+          <div class="field">
+            <label class="label">Which dinosaur would you like to buy?</label>
+            <div class="control">
+              <div class="select">
+                <select>
+                  <option>Tyrannosaurus Rex</option>
+                  <option>Triceratops</option>
+                  <option>Dryosaurus</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          
+          <div class="field">
+            <label class="label">Give the reason for your purchase:</label>
+            <div class="control">
+              <textarea class="textarea" placeholder="Text input"></textarea>
+            </div>
+          </div>
+          
+          <div class="field">
+            <div class="control">
+              <label class="checkbox">
+                <input type="checkbox" required>
+                I agree to the <a href="#">terms and conditions</a>
+              </label>
+            </div>
+          </div>
+          
+          <div class="field is-grouped">
+            <div class="control">
+              <button onclick="window.location.href='aankoop.html'" class="button is-link">Submit</button>
+            </div>
+            <div class="control">
+              <button onclick="window.location.href='selection.html'"class="button is-link is-light">Cancel</button>
+            </div>
+          </div>
+    </section>
+  </body>
+</html>
